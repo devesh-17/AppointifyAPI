@@ -1,0 +1,16 @@
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.csproj.AssemblyReference.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.GeneratedMSBuildEditorConfig.editorconfig
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.AssemblyInfoInputs.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.AssemblyInfo.cs
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.csproj.CoreCompileInputs.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.sourcelink.json
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\bin\Debug\net6.0\CityConnect.Business.deps.json
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\bin\Debug\net6.0\CityConnect.Business.dll
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\bin\Debug\net6.0\CityConnect.Business.pdb
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\bin\Debug\net6.0\CityConnect.Domain.dll
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\bin\Debug\net6.0\CityConnect.Domain.pdb
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.csproj.CopyComplete
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.dll
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\refint\CityConnect.Business.dll
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\CityConnect.Business.pdb
+L:\Appointify\AppointifyAPI\Business\CityConnect.Business\obj\Debug\net6.0\ref\CityConnect.Business.dll

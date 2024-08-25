@@ -1,0 +1,6 @@
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.csproj.AssemblyReference.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.AssemblyInfoInputs.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.AssemblyInfo.cs
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.csproj.CoreCompileInputs.cache
+L:\Appointify\AppointifyAPI\Business\CityConnect.Repositories\obj\Debug\net6.0\CityConnect.Repositories.sourcelink.json

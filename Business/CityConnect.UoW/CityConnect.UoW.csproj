@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CityConnect.Interfaces\CityConnect.Interfaces.csproj" />
+    <ProjectReference Include="..\CityConnect.Repositories\CityConnect.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

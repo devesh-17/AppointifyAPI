@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "L:\\Appointify\\AppointifyAPI\\Output\\CityConnect.Mail\\CityConnect.Mail.csproj": {}
+  },
+  "projects": {
+    "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj",
+        "projectName": "CityConnect.Business",
+        "projectPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj",
+        "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
+        "outputPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj": {
+                "projectPath": "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\CityConnect.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\CityConnect.Interfaces.csproj",
+        "projectName": "CityConnect.Interfaces",
+        "projectPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\CityConnect.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
+        "outputPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj": {
+                "projectPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj"
+              },
+              "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj": {
+                "projectPath": "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj",
+        "projectName": "CityConnect.Domain",
+        "projectPath": "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\CityConnect.Domain.csproj",
+        "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
+        "outputPath": "L:\\Appointify\\AppointifyAPI\\Database\\CityConnect.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "L:\\Appointify\\AppointifyAPI\\Output\\CityConnect.Mail\\CityConnect.Mail.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "L:\\Appointify\\AppointifyAPI\\Output\\CityConnect.Mail\\CityConnect.Mail.csproj",
+        "projectName": "CityConnect.Mail",
+        "projectPath": "L:\\Appointify\\AppointifyAPI\\Output\\CityConnect.Mail\\CityConnect.Mail.csproj",
+        "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
+        "outputPath": "L:\\Appointify\\AppointifyAPI\\Output\\CityConnect.Mail\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj": {
+                "projectPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Business\\CityConnect.Business.csproj"
+              },
+              "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\CityConnect.Interfaces.csproj": {
+                "projectPath": "L:\\Appointify\\AppointifyAPI\\Business\\CityConnect.Interfaces\\CityConnect.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RazorEngine.NetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

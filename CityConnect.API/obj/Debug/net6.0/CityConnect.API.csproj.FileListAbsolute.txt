@@ -1,0 +1,10 @@
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.csproj.AssemblyReference.cache
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.Resource.Controllers.PersonController.en.resources
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.Resource.Controllers.PersonController.fr.resources
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.csproj.GenerateResource.cache
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.GeneratedMSBuildEditorConfig.editorconfig
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.AssemblyInfoInputs.cache
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.AssemblyInfo.cs
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.csproj.CoreCompileInputs.cache
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.MvcApplicationPartsAssemblyInfo.cache
+L:\Appointify\AppointifyAPI\CityConnect.API\obj\Debug\net6.0\CityConnect.API.sourcelink.json

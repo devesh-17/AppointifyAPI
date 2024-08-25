@@ -1,0 +1,13 @@
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\bin\Debug\net6.0\CityConnect.Excel.deps.json
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\bin\Debug\net6.0\CityConnect.Excel.dll
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\bin\Debug\net6.0\CityConnect.Excel.pdb
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.csproj.AssemblyReference.cache
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.GeneratedMSBuildEditorConfig.editorconfig
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.AssemblyInfoInputs.cache
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.AssemblyInfo.cs
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.csproj.CoreCompileInputs.cache
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.sourcelink.json
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.dll
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\refint\CityConnect.Excel.dll
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\CityConnect.Excel.pdb
+L:\Appointify\AppointifyAPI\Output\CityConnect.Excel\obj\Debug\net6.0\ref\CityConnect.Excel.dll
