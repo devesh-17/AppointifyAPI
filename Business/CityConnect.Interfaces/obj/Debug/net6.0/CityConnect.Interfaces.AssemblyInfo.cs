@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityConnect.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e455ce6980b159d8b0482bee0a5fe485a101e324")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68ff135ce4872ecf39c5d6a6cabb4da288e3eb6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityConnect.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityConnect.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

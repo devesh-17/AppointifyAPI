@@ -24,7 +24,7 @@ namespace CityConnect.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(PersonModel personModel)
+        public async Task<IActionResult> Login(ApplicationUser personModel)
         {
             var result = await DoActionForPost<LoginResponseModel>(personModel, "Person/Login");
             if (!string.IsNullOrEmpty(result.Data.Token))

@@ -8,13 +8,14 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using CityConnect.Business.Helpers;
 using System.IO;
+using CityConnect.Domain.Models;
 
 namespace AAT.API.Filters
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class JwtAuthenticationFilter : Attribute, IAuthorizationFilter, IActionFilter
     {
-        public static PersonModel ApplicationUserApiRequest { get; set; }
+        public static ApplicationUser ApplicationUserApiRequest { get; set; }
         private string requestModel = "";
 
         public void OnAuthorization(AuthorizationFilterContext context)
@@ -26,7 +27,7 @@ namespace AAT.API.Filters
                 if (IsAuthenticated)
                 {
                     var claimsIndentity = context.HttpContext.User.Identity as ClaimsIdentity;
-                    ApplicationUserApiRequest = new PersonModel
+                    ApplicationUserApiRequest = new ApplicationUser
                     {
                         Id = Convert.ToInt32(context.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Id")?.Value),
                         Name = context.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Name")?.Value,
