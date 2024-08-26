@@ -6,6 +6,13 @@
 # dotenv files
 .env
 
+# Ignore bin and obj directories
+**/bin/
+**/obj/
+
+# Ignore Debug and Release directories
+**/Debug/
+**/Release/
 # User-specific files
 *.rsuser
 *.suo
