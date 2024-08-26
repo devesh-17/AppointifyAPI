@@ -15,7 +15,7 @@ namespace AAT.API.Filters
     [AttributeUsage(AttributeTargets.Class)]
     public class JwtAuthenticationFilter : Attribute, IAuthorizationFilter, IActionFilter
     {
-        public static ApplicationUser ApplicationUserApiRequest { get; set; }
+        public static PersonModel ApplicationUserApiRequest { get; set; }
         private string requestModel = "";
 
         public void OnAuthorization(AuthorizationFilterContext context)
@@ -27,7 +27,7 @@ namespace AAT.API.Filters
                 if (IsAuthenticated)
                 {
                     var claimsIndentity = context.HttpContext.User.Identity as ClaimsIdentity;
-                    ApplicationUserApiRequest = new ApplicationUser
+                    ApplicationUserApiRequest = new PersonModel
                     {
                         Id = Convert.ToInt32(context.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Id")?.Value),
                         Name = context.HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Name")?.Value,

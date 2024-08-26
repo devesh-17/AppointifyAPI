@@ -143,66 +143,18 @@ namespace CityConnect.API
 
         private static void RegisterServices(IServiceCollection services)
         {
-            services.AddScoped<IPersonService, PersonService>();
-            services.AddScoped<IAccessModuleService,AccessModuleService>();
-
-services.AddScoped<IAspNetRoleClaimsService,AspNetRoleClaimsService>();
-
-services.AddScoped<IAspNetRolesService,AspNetRolesService>();
-
-services.AddScoped<IAspNetUserClaimsService,AspNetUserClaimsService>();
-
-services.AddScoped<IAspNetUserLoginsService,AspNetUserLoginsService>();
-
-services.AddScoped<IAspNetUserRolesService,AspNetUserRolesService>();
-
-services.AddScoped<IAspNetUsersService,AspNetUsersService>();
-
-services.AddScoped<IAspNetUserTokensService,AspNetUserTokensService>();
-
-services.AddScoped<IModuleService,ModuleService>();
-
-services.AddScoped<IPersonService,PersonService>();
-
-services.AddScoped<IRoleService,RoleService>();
-
-services.AddScoped<IRoleModuleService,RoleModuleService>();
-
-
+            services.AddScoped<IAccessModuleService, AccessModuleService>();
+            services.AddScoped<IModuleService, ModuleService>();
+            services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IRoleModuleService, RoleModuleService>();
             services.AddScoped<IRoleModuleService, RoleModuleService>();
         }
 
         private static void RegisterRepositories(IServiceCollection services)
         {
-            services.AddScoped<IPersonRepository, PersonRepository>();
-            services.AddScoped<IAccessModuleRepository,AccessModuleRepository>();
-
-services.AddScoped<IAspNetRoleClaimsRepository,AspNetRoleClaimsRepository>();
-
-services.AddScoped<IAspNetRolesRepository,AspNetRolesRepository>();
-
-services.AddScoped<IAspNetUserClaimsRepository,AspNetUserClaimsRepository>();
-
-services.AddScoped<IAspNetUserLoginsRepository,AspNetUserLoginsRepository>();
-
-services.AddScoped<IAspNetUserRolesRepository,AspNetUserRolesRepository>();
-
-services.AddScoped<IAspNetUsersRepository,AspNetUsersRepository>();
-
-services.AddScoped<IAspNetUserTokensRepository,AspNetUserTokensRepository>();
-
-services.AddScoped<IModuleRepository,ModuleRepository>();
-
-services.AddScoped<IPersonRepository,PersonRepository>();
-
-services.AddScoped<IRoleRepository,RoleRepository>();
-
-services.AddScoped<IRoleModuleRepository,RoleModuleRepository>();
-
-
-            services.AddScoped<IRoleRepository, RoleRepository>();
-            services.AddScoped<IModuleRepository, ModuleRepository>();
             services.AddScoped<IAccessModuleRepository, AccessModuleRepository>();
+            services.AddScoped<IModuleRepository, ModuleRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
             services.AddScoped<IRoleModuleRepository, RoleModuleRepository>();
         }
 

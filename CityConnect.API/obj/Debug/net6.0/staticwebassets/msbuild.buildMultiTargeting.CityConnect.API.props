@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CityConnect.API.props" />
+</Project>

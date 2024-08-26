@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityConnect.Mail")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68ff135ce4872ecf39c5d6a6cabb4da288e3eb6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d83a883d5269296db7dc42df56ad7518d9a659ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityConnect.Mail")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityConnect.Mail")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
