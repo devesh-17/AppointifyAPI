@@ -11,7 +11,7 @@ namespace CityConnect.Migrations.DbMigrations
         {
             using var scope = app.ApplicationServices.CreateScope();
             var runner = scope.ServiceProvider.GetService<IMigrationRunner>();
-            runner.ListMigrations();
+            //runner.ListMigrations();
             //runner.MigrateUp(20220609014400);
 
             return app;
